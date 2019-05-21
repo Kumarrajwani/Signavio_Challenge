@@ -12,7 +12,7 @@ const {Builder, By, Key, until} = require('selenium-webdriver');
      driver.manage().window().maximize(); 
      driver.sleep(10000);
      driver.findElement(By.xpath('//*[starts-with(@id,"ext-gen2")]')).sendKeys('ext-gen2');    
-     
+
   } 
     finally {
     //await driver.quit();
